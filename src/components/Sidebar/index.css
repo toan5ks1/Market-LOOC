@@ -34,6 +34,6 @@
     cursor: pointer;
 }
 .sidebar-link:hover {
-    color: #01bf71;
+    color: var(--link);
     transition: 0.2s ease-in-out;
 }

@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #f4f9f9;
+  background: #fff;
 }
 
 h1 {
@@ -8,8 +8,8 @@ h1 {
 }
 
 .prd-wrap {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .cards__container {
   display: flex;
@@ -34,11 +34,10 @@ h1 {
   grid-template-columns: auto auto auto auto auto;
 }
 @media screen and (max-width: 1100px) {
-    .cards__items{
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-    
+  .cards__items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 }
 .cards__item {
   display: flex;
@@ -98,15 +97,15 @@ h1 {
   text-decoration: none;
 }
 @media screen and (max-width: 1200px) {
-    .cards__item__info {
-        font-size: 0.5rem;
-    }
+  .cards__item__info {
+    font-size: 0.5rem;
+  }
 }
 .item-title {
   font-weight: bolder;
 }
 .item-heart {
-    color: orangered;
+  color: var(--sec1);
 }
 .item-infor {
   display: flex;
@@ -120,10 +119,10 @@ h1 {
 }
 
 /* @media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-} */
+    .cards__items {
+      display: flex;
+    }
+  } */
 
 @media only screen and (max-width: 1024px) {
   .cards__item {

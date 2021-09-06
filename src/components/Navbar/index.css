@@ -1,5 +1,5 @@
 .nav {
-  background: #161616;
+  background: var(--bgr);
   height: 80px;
   padding: 0 2%;
   display: flex;
@@ -90,7 +90,7 @@
   font-size: 1rem;
 }
 .nav-links:hover {
-  border-bottom: 3px solid #045dd1;
+  border-bottom: 3px solid var(--link);
   transition: all 0.2s ease-out;
   text-decoration: none;
   color: white;

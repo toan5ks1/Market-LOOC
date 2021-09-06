@@ -17,7 +17,7 @@
   bottom: 12%;
 }
 .intro-btn {
-  background-color: #ea4913;
+  background-color: var(--sec1);
   border: 3px solid black;
   border-radius: 10vh;
   color: black;
@@ -41,7 +41,7 @@
 }
 
 .intro-background-3 {
-  background-color: #fcd426;
+  background-color: var(--sec3);
   width: 100%;
   height: auto;
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .intro3-title {
-  color: #ea4913;
+  color: var(--sec1);
   text-align: center;
 }
 .intro3-header {
