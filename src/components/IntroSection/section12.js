@@ -4,7 +4,7 @@ import sec2 from "../images/intro-section/intro-section-2.png"
 import hotPD1 from "../images/intro-section/hot-1.png"
 import hotPD2 from "../images/intro-section/hot-2.png"
 import hotPD3 from "../images/intro-section/hot-3.png"
-import './index.css'
+import './section12.css'
 
 
 const Intro = () => {

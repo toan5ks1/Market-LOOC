@@ -118,7 +118,80 @@ const Product = () => {
                             heart='236'
                             path='/item'
                         />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
+                        <CardItem
+                            src={item5}
+                            text='[What happen] How to create'
+                            label='2,500 won'
+                            heart='236'
+                            path='/item'
+                        />
                     </ul>
+                    <div className="more-cards">
+                        <button className="more-btn">SEE MORE</button>
+                    </div>
                 </div>
             </div>
         </div>

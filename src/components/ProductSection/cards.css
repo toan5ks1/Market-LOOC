@@ -13,7 +13,7 @@ h1 {
 }
 .cards__container {
   display: flex;
-  flex-flow: column;
+  flex-direction: row;
   align-items: center;
   width: 85%;
   justify-content: center;
@@ -42,9 +42,11 @@ h1 {
 .cards__item {
   display: flex;
   flex: 1;
-  margin: 4rem 0.4rem;
+  margin: 1.4rem 0.4rem;
 }
-
+.cards__item:hover {
+  background-color: rgb(255, 223, 79);
+}
 .card_btn {
   text-align: center;
   width: 100%;
@@ -53,9 +55,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
   overflow: hidden;
   text-decoration: none;
 }
@@ -128,4 +130,22 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
+}
+
+.more-cards {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: center;
+}
+.more-btn {
+  border: 3px solid black;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+  padding: 8px 30px;
+  background-color: transparent;
+}
+.more-btn:hover {
+  color: var(--sec1);
+  border: 3px solid var(--sec1);
 }

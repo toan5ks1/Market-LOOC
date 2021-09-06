@@ -1,0 +1,25 @@
+.intro3-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.img-decor {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.card-items-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+@media screen and (max-width: 900px) {
+  .card-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+}

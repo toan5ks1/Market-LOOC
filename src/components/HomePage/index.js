@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import Sidebar from '../Sidebar';
 import Navbar from '../Navbar';
-import Intro  from '../IntroSection';
+import Intro  from '../IntroSection/section12';
 import Product from '../ProductSection/cards';
-//import { IntroSection } from '../IntroSection';
-// import Footer from '../Footer/Footer'
-// import Cards from '../Cards'
+import Section3 from '../IntroSection/section3'
+import Section4 from '../IntroSection/section4'
+import Footer from '../Footer'
 
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false)
@@ -18,6 +18,9 @@ const Home = () => {
             <Navbar toggle={toggle}/>
             <Intro />
             <Product />
+            <Section3 />
+            <Section4 />
+            <Footer />
         </>
     )
 }
