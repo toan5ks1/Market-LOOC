@@ -1,0 +1,142 @@
+.intro-background {
+  position: relative;
+  z-index: 1;
+  margin-top: 80px;
+}
+
+.intro-img {
+  width: 100%;
+}
+
+.btn-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  bottom: 12%;
+}
+.intro-btn {
+  background-color: #ea4913;
+  border: 3px solid black;
+  border-radius: 10vh;
+  color: black;
+  font-weight: bolder;
+  padding: 0;
+}
+.p-text {
+  font-size: 14px;
+  margin: 4px 10px;
+}
+@media screen and (max-width: 760px) {
+  .p-text {
+    font-size: 8px;
+  }
+  .intro-btn {
+    border: 2px solid black;
+  }
+}
+.btn-passing {
+  margin: 0 20%;
+}
+
+.intro-background-3 {
+  background-color: #fcd426;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8% 0;
+}
+
+.intro3-title {
+  color: #ea4913;
+  text-align: center;
+}
+.intro3-header {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+.intro3-para {
+  padding: 0 24%;
+  font-size: 1.4rem;
+}
+
+.card-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 5%;
+}
+@media screen and (max-width:900px) {
+    .card-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 5%;
+    }
+}
+.intro-bestPrd {
+    width: 90%;
+}
+.item-img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+.item-wrapper {
+  transition: transform 0.2s;
+  margin: 5px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-wrapper:hover {
+  transform: scale(1.04);
+}
+.btn-wrapper {
+  background-color: #fff;
+  margin: -5% 0 0 0;
+  padding: 0px 15px;
+  border: 3px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 80%;
+  height: auto;
+}
+.item-btn {
+  border-radius: 50%;
+  border: 1px;
+  height: 70px;
+  width: 100px;
+  background-color: black;
+}
+.btn-text {
+    font-size: 1.6vw;
+}
+@media screen and (max-width: 900px) {
+    .item-wrapper {
+        width: 100%;
+    }
+    .btn-text {
+        font-size: 4vw;
+    }
+    .item-btn {
+        height: 50px;
+        width: 55px;
+    }
+}
